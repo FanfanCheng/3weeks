@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>3 Weeks 3 Pages -- Week1 </title>
+	<link rel="stylesheet" type="text/css" href="css/week1.css">
+	<style>
+		header div {
+			display: inline-block;
+		}
+
+		header {
+			padding: 16px 120px;
+		}
+
+
+		.title {
+			vertical-align: middle;
+		}
+
+		.menu {
+			float: right;
+			text-transform: uppercase;
+
+		}
+
+		.menu div {
+			vertical-align: middle;
+			margin: 0 16px;
+		}
+
+		.menu img {
+			height: 24px;
+			width: 24px;
+			object-fit: cover;
+			vertical-align: middle;
+		}
+
+		.heroimage {
+			background-image: url('./assets/week1/hero.jpg');
+			background-size: contain;
+			height: 960px;
+		}
+
+		.heroimage-content {
+			color: white;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		.heroimage-content div{
+			font-size: 20px;
+			padding-top: 20px;
+		}
+
+		.heroimage-content button{
+			height:50px;
+			width:200px;
+			color:white;
+			margin-top: 20px;
+			font-size: 15px;	
+		}
+		.seo {
+			display: flex;
+		}
+		.seo .img, .seo .text {
+			flex: 1;
+			padding-top: 250px;
+			padding-left: 200px;
+		}
+
+		.text div{
+			font-size: 30px;
+			font-weight: 700;
+		}
+
+		.text p{
+			padding-top: 20px;
+			padding-right: 200px;
+			font-family: 'Lucida Sans';
+			color: darkgray;
+		}
+
+		.seo img {
+			max-width: 100%;
+		}
+		.protfolio .img {
+			order: 2;
+		}
+		.seo button{
+			color: white;
+			background-color: slateblue;
+			height:50px;
+			width:200px;
+			margin-top: 20px;
+			font-size: 15px;
+		}
+		.footer{
+			background-color: black;
+			color: white;
+			height:200px;
+			padding-left: 200px;
+			padding-top: 150px;
+		}
+		.seoprotfolio{
+
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="title">Shapely Demo</div>
+		<div class="menu">
+			<div>home</div>
+			<div>blog</div>
+			<div>portfolio</div>
+			<div>shop</div>
+			<img src="./assets/week1/search-icon.png" alt="">
+		</div>
+	</header>
+
+	<main>
+		<section class="heroimage">
+			<div class="heroimage-content">
+				<h1 style="white-space: pre-line; font-size: 60px;">
+					We Change Everthing
+					WordPress
+				</h1>
+
+				<div>This is the only WordPress theme you will ever want to use</div>
+				<button style="background-color:transparent;">DOWNLOAD NOW</button>
+				<button style="background-color: slateblue;border: none;">READ MORE</button>
+			</div>
+		</section>
+		<section class="seo">
+			<div class="img"><img src="./assets/week1/flexible-preview.png"></div>
+			<div class="text">
+				<div>SEO Fridendly</div>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aperiam sapiente adipisci nihil nobis
+					at architecto repellat saepe nesciunt impedit dolor tenetur, voluptas, consectetur debitis maiores
+					non, tempore quo totam.</p>
+				<button>READ MORE</button>
+			</div>
+		</section>
+		<section class="seo protfolio" style="background-color:gainsboro">
+			<div class="img"><img src="./assets/week1/flexible-portfolio.png"></div>
+			<div class="text">
+				<div>Portfolio Section</div>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aperiam sapiente adipisci nihil
+					nobis at architecto repellat saepe nesciunt impedit dolor tenetur, voluptas, consectetur debitis
+					maiores non, tempore quo totam.</p>
+				<button>SEE IT IN ACTION</button>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer"> <b>Theme by</b> Colorlib <b>Powered by</b> WordPress</div>
+	</footer>
+</body>
+
+</html>
